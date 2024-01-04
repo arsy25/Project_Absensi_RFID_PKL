@@ -1,0 +1,1 @@
+Ubah w_regist_card menjadi index.js jika ingin digunakan, dan jangan lupa install npm
