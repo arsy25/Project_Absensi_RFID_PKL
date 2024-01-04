@@ -14,11 +14,11 @@
 #define RST_PIN 5 // Pin D1 on NodeMCU
 
 // Configuration for RMQ
-const char* MQTT_SERVER = "192.168.1.13";
+const char* MQTT_SERVER = "103.167.112.188"; //server psti
 const int MQTT_PORT = 1883;
-const char* MQTT_USER = "absensi:ilham";
-const char* MQTT_PASS = "123";
-const char* ROUTING_KEY = "routing.absensi";
+const char* MQTT_USER = "/absensi:absensi_rfid"; /vhost:user
+const char* MQTT_PASS = "absensi_rfid!";
+const char* ROUTING_KEY = "routing_rfid";
 
 const int timeZoneOffset = 7 * 60 * 60;
 
